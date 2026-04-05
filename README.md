@@ -10,6 +10,29 @@ Cada plugin es independiente y se puede instalar por separado.
 | ----------------------------------- | ------- | ------------------------------------------------------------------- |
 | [git-plugin](./plugins/git-plugin/) | 0.0.1   | Operaciones Git desde Claude Code: commits inteligentes, push y más |
 
+## Añadir el marketplace de plugins
+
+Ejecutamos el comando built-in `/plugin` en Claude Code:
+
+![alt text](docs/images/image.png)
+
+Seleccionamos la pestaña "Marketplaces" y la opción "+ Add Marketplace":
+
+![alt text](docs/images/image-1.png)
+
+Introducimos nuestro repositorio de GitHub, `falkenslab/falkens-claude-plugins` donde se encuentran los plugins:
+
+![alt text](docs/images/image-2.png)
+
+Seleccionamos el plugin `git-plugin` en este caso, si es el que queremos instalar desde nuestro marketplace:
+
+![alt text](docs/images/image-3.png)
+
+Y finalmente indicamos el ámbito en el que queremos instalarlo:
+
+![alt text](docs/images/image-4.png)
+
+Ejecutamos el comando `/reload-plugins` para que Claude reconozca los nuevos plugins (si no funciona, reinicia `claude`) ¡y listo! 👍
 
 ## Estructura de un plugin
 
