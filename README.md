@@ -39,3 +39,12 @@ plugins/
 4. Registra el plugin en `.claude-plugin/marketplace.json`.
 
 Consulta [CLAUDE.md](./CLAUDE.md) para las convenciones y guías completas.
+
+## Referencias
+
+* [Official Anthropic Plugin Marketplace](https://claude.com/plugins)
+* [Claude Code Plugins Directory](https://github.com/anthropics/claude-plugins-official)
+* [Create plugins](https://code.claude.com/docs/en/plugins)
+* [Create and distribute a plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)
+* [Extend Claude with skills](https://code.claude.com/docs/en/skills)
+* [Built-in commands](https://code.claude.com/docs/en/commands)
